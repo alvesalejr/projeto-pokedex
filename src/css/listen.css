@@ -1,0 +1,97 @@
+.listen{
+    max-width: 230px;
+}
+
+.listen .pokemon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+
+    background-color: #bbbbc5;
+    color: #fff;
+    padding: 0 5px;
+    cursor: pointer;
+    border-radius: 30px;
+    min-height: 70px;
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.15s ease-in-out;
+}
+.listen .pokemon:hover{
+    transform: scale(1.2);
+}
+.listen .dragonite:hover{
+    background-color: #F29F05;
+}
+
+.listen .charmander:hover{
+    background-color: #d84648;
+}
+
+.listen .squirtle:hover{
+    background-color: #76BEFE;
+}
+
+.listen .bulbasaur:hover{
+    background-color: #49D0B0;
+}
+
+.listen .pikachu:hover{
+    background-color: #FCC719;
+}
+
+.listen .gyarados:hover{
+    background-color: #76BEFE;
+}
+
+.listen .gengar:hover{
+    background-color: #35083d;
+}
+
+.listen .eeve:hover{
+    background-color: #A66E4E;
+}
+
+.listen .pokemon img{
+    width: 30%;
+    border-radius: 50%;
+}
+
+.listen .pokemon span{
+    padding-right: 20px;
+}
+.listen .pokemon.dragonite.ativo{
+    background-color: #F29F05;
+}
+.listen .pokemon.charmander.ativo{
+    background-color: #d84648;
+}
+.listen .pokemon.squirtle.ativo{
+    background-color: #76BEFE;
+}
+.listen .pokemon.bulbasaur.ativo{
+    background-color: #49D0B0;
+}
+.listen .pokemon.pikachu.ativo{
+    background-color: #FCC719;
+}
+.listen .pokemon.gyarados.ativo{
+    background-color: #76BEFE;
+}
+.listen .pokemon.gengar.ativo{
+    background-color: #35083d;
+}
+.listen .pokemon.eeve.ativo{
+    background-color: #A66E4E;
+}
+
+
+.listen .pokemon img.pokeball:hover {
+    transform: scale(1.3);
+    transition: 0.1s ease-out;
+}
+.listen .pokemon img.pokeball {
+    width: 15%;
+    border-radius: 60%;
+}

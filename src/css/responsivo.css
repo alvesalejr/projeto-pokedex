@@ -1,0 +1,60 @@
+@media(max-width: 750px){
+
+    body{
+        font-size: 12px;
+    }
+
+    .pokedex{
+        flex-direction: column;
+        padding: 30px 0;
+        align-items: center;
+    }
+
+    .card-pokemon{
+        max-width: 300px;
+    }
+
+    .card-pokemon .card-image{
+        width: 250px;
+        height: 250px;
+    }
+
+    .card-pokemon .card-info{
+        padding: 60px 30px 30px;
+        margin-top: -50px;
+    }
+
+    .card-pokemon .card-info .status .skils .evolutions{
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .card-pokemon .card-info h3{
+        font-size: 16px;
+    }
+
+    .listen{
+        max-width: 300px;
+    }
+
+    .listen ul{
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .listen .pokemon{
+        width: 140px;
+        margin-bottom: 0;
+        border-radius: 8px;
+    }
+
+    .listen.pokemnon span{
+        padding-right: 5px;
+    }
+
+    
+
+}
