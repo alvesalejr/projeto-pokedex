@@ -1,4 +1,4 @@
 # Projeto Pokedex 
 
-https://user-images.githubusercontent.com/80294932/160180134-652b867b-c4b6-4c8e-ae13-0bd21b9da033.mp4
 
+![Pokedex](https://user-images.githubusercontent.com/80294932/160180664-1c040345-33dc-479b-b414-a48cf3ea5a30.gif)
